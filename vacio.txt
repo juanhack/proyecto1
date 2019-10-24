@@ -1,1 +1,19 @@
 Mensaje Secreto
+adicion al mensaje Secreto
+todo lo que debes saber
+
+git init - Es para iniciar el programa
+pwd - permite saber la ruta del directorio en el que me encuentro
+clear - para limpiar la consola
+mkdir - Crear directorio
+touch - me permite crear un archivo vacio
+History - me permite ver el historial de comandos
+!(numero del history) - este comando me permite ejecutar el comando del History segun el numero que se coloque
+git add - Comnado para adicionar un documento a la rama // git add . - comando ara adicionar todos los documentos que se hubieran creado/actualizado dentro de un mismo directorio o rama
+git commit -m - Esto carga definitivamente el documento a la rama correspondiente en el servidor... y crea una nueva versión
+git config --global user.name "Juan Ospina" - comando para configurar el nombre de la persona que esta haciendo la actualización
+git config --global user.email "silohe6@gmail.com" - comando para configurar el correo electronico de la persona que esta haciendo la actualización
+git config - list - comando para revisar la configuración actual de github
+git show (nombre del archivo) - muestra la el ultimo commit que se hubiera realizado y el estado anterior y los ajustes nuevos que tenga dicho documento
+git restore <file> - sirve para retornar un documento a la version anterior del mismo. // git restore --staged <file> - comando para retornar un archivo despues de haberle dado ADD, esto con el fin de que no suba como un commit
+git status - permite ver el estado actual de un fichero (a que rama pertenece, que archivos estan pendientes por adicionar, que archivos estan pendientes por commit y que archivos tienen modificaciones)
