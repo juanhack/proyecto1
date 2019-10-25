@@ -23,3 +23,7 @@ git diff <numero de commit que quiero comparar> <numero de commit contra el que 
 git log --stat - comnado para ver cada uno de los commits que se han hecho, con la claridad de cuantos bits y que archivos y directorios se han cargado al repositorio.
 git rm - Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión. (git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.//git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados)
 git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+git commit -am : crean un commit de los cambios realizados en los archivos que previamente ya hubieran sido subidos con ADD por lo menos una ves, quitando de por medio tener que estar haciendo muchos ADDS
+
+git branch <nombre rama> : crea una nueva rama o linea de trabajo paralela
+git checkout <nombre rama> : comando para moverse entre ramas
