@@ -27,3 +27,6 @@ git commit -am : crean un commit de los cambios realizados en los archivos que p
 
 git branch <nombre rama> : crea una nueva rama o linea de trabajo paralela
 git checkout <nombre rama> : comando para moverse entre ramas
+
+git merge <nombre ramainvocada>: este comando se utiliza para fusionar dos ramas, sin embargo es importante aclarar que desde la rama desde la cual se invoca es la que queda como rama principal y trae y fusiona todos los cambios nuevos ocurridos en el utlimo commit de la rama que se invoca.
+
