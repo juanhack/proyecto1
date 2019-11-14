@@ -11,6 +11,7 @@ History - me permite ver el historial de comandos
 !(numero del history) - este comando me permite ejecutar el comando del History segun el numero que se coloque
 git add - Comnado para adicionar un documento a la rama // git add . - comando ara adicionar todos los documentos que se hubieran creado/actualizado dentro de un mismo directorio o rama
 git commit -m - Esto carga definitivamente el documento a la rama correspondiente en el servidor... y crea una nueva versión
+git commit -am : crean un commit de los cambios realizados en los archivos que previamente ya hubieran sido subidos con ADD por lo menos una ves, quitando de por medio tener que estar haciendo muchos ADDS
 git config --global user.name "Juan Ospina" - comando para configurar el nombre de la persona que esta haciendo la actualización
 git config --global user.email "silohe6@gmail.com" - comando para configurar el correo electronico de la persona que esta haciendo la actualización
 git config - list - comando para revisar la configuración actual de github
