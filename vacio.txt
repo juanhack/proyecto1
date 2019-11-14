@@ -30,3 +30,8 @@ git branch <nombre rama> : crea una nueva rama o linea de trabajo paralela
 git checkout <nombre rama> : comando para moverse entre ramas
 
 git merge <nombre ramainvocada>: este comando se utiliza para fusionar dos ramas, sin embargo es importante aclarar que desde la rama desde la cual se invoca es la que queda como rama principal y trae y fusiona todos los cambios nuevos ocurridos en el utlimo commit de la rama que se invoca.
+
+git log --all --graph --decorate --oneline : este comando permite graficar en la consola todo el historial del proyecto con cada uno de los commits y las ramas que este tenga
+
+git pull: trae y clona el repositorio remoto a mi repositorio local
+git push: sube mi repositorio local al repositorio remoto
